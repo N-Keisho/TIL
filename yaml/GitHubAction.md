@@ -12,6 +12,7 @@ on:
 ```
 トリガーは一つではなく，複数同時に設定することも可能．
 詳細は以下．
+
 https://docs.github.com/ja/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule
 
 # ジョブ
@@ -154,7 +155,12 @@ jobs:
         run: git push
 ```
 # 参考記事
-https://zenn.dev/praha/articles/9e561bdaac1d23　←　これがわかりやすかった
+これがわかりやすかった↓
+
+https://zenn.dev/praha/articles/9e561bdaac1d23　
+
 https://qiita.com/shun198/items/14cdba2d8e58ab96cf95
+
 https://zenn.dev/shibayan/articles/744c3c7c3faa4f
+
 https://ayousanz.hatenadiary.jp/entry/GitHub_Actions%E3%81%8B%E3%82%89push%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AB%E6%A8%A9%E9%99%90%E3%81%A7%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%8C%E5%87%BA%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AB%E7%A2%BA%E8%AA%8D%E3%81%99
