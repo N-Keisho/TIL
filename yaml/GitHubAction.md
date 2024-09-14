@@ -8,10 +8,11 @@ Diary用に作ったものを部分部分を抜粋してメモする．
 ```YAML
 on:
   schedule:
-    - cron: '21 0  * * *'
+    - cron: '30 0  * * *'
 ```
-トリガーは一つではなく，複数同時に設定することも可能．
-詳細は以下．
+上は0時30分に実行される．実行タイミングの最小単位は5分なので注意．
+
+トリガーは一つではなく，複数同時に設定することも可能．詳細は以下．
 
 https://docs.github.com/ja/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule
 
